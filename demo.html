@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Demo - AnimateScroll.js</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Ram Swaroop" />
+                <link rel="stylesheet" type="text/css" href="custom.css" />
+                <script src="jquery-1.8.3.min.js"></script>
+                <script src="animatescroll.js"></script>
+	</head>
+	<body>
+		<div class="container">	
+			
+			<header>
+				<h1>Demo - AnimateScroll.js <span>A Simple jQuery Plugin for Animating Scroll</span></h1>	
+			</header>
+			<div class="main clearfix">
+				<nav id="menu" class="nav">					
+					<ul>
+						<li>
+							<a href="#" onclick="$('body').animatescroll();" >
+								<span class="icon">
+									<i aria-hidden="true" class="icon-home"></i>
+								</span>
+								<span>Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="$('#section-2').animatescroll();">
+								<span class="icon"> 
+									<i aria-hidden="true" class="icon-services"></i>
+								</span>
+								<span>What is it?</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="$('#section-3').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-portfolio"></i>
+								</span>
+								<span>Options</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="$('#section-4').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-blog"></i>
+								</span>
+								<span>Easing Effects</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="$('#section-5').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-team"></i>
+								</span>
+								<span>Usage</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="$('#section-6').animatescroll();">
+								<span class="icon">
+									<i aria-hidden="true" class="icon-contact"></i>
+								</span>
+								<span>About Me</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div><!-- /container -->
+                
+                <div class="main clearfix">
+                        <div id="section-2">
+                            <div class="content-wrapper w70">                                
+                                <h1>What is it exactly?</h1>
+                                <p><strong>AnimateScroll.js</strong> is a jQuery plugin which enables you to <strong>scroll to any part of the page
+                                    in style</strong> by just calling the <code>animatescroll()</code> function with the <code>Id</code> or <code>Classname</code>
+                                    of the element where you want to scroll to.</p>                                
+                                <p><strong>Basic usage:</strong></p>
+                                <pre><code class="language-javascript">$('body').animatescroll();</code></pre>
+                                <button class="btn demo-btn" onclick="$('body').animatescroll();">Click for a Demo</button>
+                                <p>
+                                    It gives power to the user with its various options to customize the style of scrolling, scroll speed and many more.
+                                    Supports more than 30 unique Scrolling Styles.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="section-3">
+                            <div class="content-wrapper w70"> 
+                                <h1>Options</h1>
+                                <p>AnimateScroll.js has 3 options:</p>
+                                <ul>
+                                    <li>easing</li>
+                                    <li>scrollSpeed</li>
+                                    <li>padding</li>
+                                </ul>
+                                <p><strong>easing : </strong> This option defines the scrolling style. The various easing effects supported can be seen at <a href="http://easings.net" target="_blank">easings.net</a> <small>(Accepts string only)</small></p>
+                                <p><strong>scrollSpeed : </strong> Controls the scrolling speed, higher is the number slower is the scroll speed <small>(Accepts only number)</small></p>
+                                <p><strong>padding : </strong> Adjusts little ups and downs in scrolling. Suppose a small amount of padding is applied to a particular element due to which the scroll didn't end at the right position, so this option helps you to rectify <small>(Accepts numbers only, can be negative)</small></p>
+                            
+                            </div>
+                        </div>
+
+                        <div id="section-4">
+                            <div class="content-wrapper w60 disp-inl-blk"> 
+                                <h1>Easing Effects</h1>
+                                <p>This plugin supports more than 30 different styles of scrolling. The easing option lets you choose a particular style of scrolling according to your choice.</p>
+                                <p>Some of them are shown here:</p>
+                                <pre><code class="language-javascript">$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});</code></pre>
+                                <pre><code class="language-javascript">$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});</code></pre>
+                                <pre><code class="language-javascript">$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeOutElastic'});</code></pre>
+                            </div>
+                            <div class="content-wrapper w30 fr">
+                                <div class="easing-buttons">
+                                    <strong>Click the buttons below for a demo:</strong><br/><br/>
+                                    <button class="btn" onclick="$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});">easeInOutBack</button><br/><br/>
+                                    <button class="btn" onclick="$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});">easeOutBounce</button><br/><br/>
+                                    <button class="btn" onclick="$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeOutElastic'});">easeOutElastic</button>
+                                </div>
+                            </div>                            
+                        </div>
+
+                        <div id="section-5"  onclick="$('#section-1').animatescroll({scrollSpeed:3000,padding:-30,easing:'easeOutElastic'});">
+                            <div class="content-wrapper w60 disp-inl-blk">                                
+                                <h1>Usage</h1>
+                                <p>You need two things for this plugin to work, one is <strong>"jQuery library"</strong> and the other <strong>"animatescroll.js"</strong> file</p>
+                                <p>Just include the "animatescroll.js" file after the "jQuery library" as shown in the code snippet below and you're done</p>
+                                <small>NOTE: The only dependency for this plugin to work is jQuery library</small>
+                                <pre class="language-markup">
+                                    <code class="language-markup" >
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"&gt;&lt;/script&gt;
+        &lt;script src=&quot;animatescroll.js&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div id="section-1"&gt;This is the element where you want to scroll to&lt;div&gt;
+        
+        // You may call the function like this
+        &lt;a onclick=&quot;$('[id-or-class-of-element]').animatescroll();&quot;&gt;Go to Element&lt;/a&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+                                    </code>
+                                </pre>
+                            </div>
+                            <div class="content-wrapper w30 fr">
+                                <div class="download-buttons">
+                                    <button class="btn" onclick="window.location='http://plugins.compzets.com/animatescroll'">Download</button><br/><br/>
+                                    <button class="btn" onclick="window.location='https://github.com/ramswaroop/animatescroll.js'">Download from github</button>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div id="section-6">
+                            <div class="content-wrapper w70 disp-inl-blk">
+                                <h1>About Me</h1>
+                                <p>My name is <a href="http://www.ramswaroop.me" target="_blank">Ram Swaroop</a>. I am a Programmer as well as a Designer. I am the Founder of <a href="http://www.compzets.com" target="_blank">Compzets.com</a>, as well as various other <a href="http://webapps.compzets.com" target="_blank">online applications</a>.</p>
+                                <p>This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code and can do the same <a href="https://github.com/ramswaroop/animatescroll.js" target="_blank">@github</a>.</p>
+                                <p>If my plugin helped you or unlikely for any issues tweet me <a href="https://twitter.com/ramswarooppatra" target="_blank">@ramswaroopatra</a>, will be happy to hear from you.</p>
+                            </div>
+                            <div class='content-wrapper w30 fr'>
+                                <a href='#' onclick="$('body').animatescroll();" class='fr'><small>Go to Top</small></a>
+                            </div>
+                        </div>
+                </div>
+	</body>
+</html>
