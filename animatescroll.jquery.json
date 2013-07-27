@@ -3,25 +3,18 @@
     "title": "AnimateScroll.js",
     "description": "A Simple jQuery Plugin for Animating Scroll with more than 30 unique easing effects",
     "keywords": [
+        "animatescroll",        
+        "scrollanimate",
         "scroll",
         "animation",
-        "animatescroll",
-        "scrollanimate",
         "scrollto"
     ],
-        "version": "1.0.0",
+        "version": "1.0.1",
         "author": {
             "name": "Ram Swaroop",
             "email": "ramswarooppatra@gmail.com",
             "url": "http://www.ramswaroop.me"
     },
-    "maintainers": [
-    {
-        "name": "Ram Swaroop",
-        "email": "ramswarooppatra@gmail.com",
-        "url": "http://www.ramswaroop.me"
-    }
-    ],
     "licenses": [
     {
         "type": "MIT",
