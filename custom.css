@@ -75,7 +75,7 @@ a:hover {
 .btn:active{margin-top:5px;margin-bottom:-5px}
 .demo-btn{position:absolute;margin-top:12px;margin-left:40px}
 .demo-btn:active{margin-top:17px;margin-bottom:-17px}
-.easing-buttons{margin-top:100px}
+.easing-buttons{margin-top:80px}
 .download-buttons{margin-top:350px}
 .fl{float:left}
 .fr{float:right}

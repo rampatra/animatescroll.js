@@ -1,5 +1,5 @@
-AnimateScroll.js
-================
+AnimateScroll
+=============
 
 A Simple jQuery Plugin for Animating the Scroll
 
@@ -9,7 +9,7 @@ Demo can be seen at http://plugins.compzets.com/animatescroll
 What is it exactly?
 -------------------
 
-AnimateScroll.js is a jQuery plugin which enables you to scroll to any part of the page in style by just calling the animatescroll() function with the Id or Classname of the element where you want to scroll to.
+AnimateScroll is a jQuery plugin which enables you to scroll to any part of the page in style by just calling the animatescroll() function with the Id or Classname of the element where you want to scroll to.
 
 It gives power to the user with its various options to customize the style of scrolling, scroll speed and many more. Supports more than 30 unique Scrolling Styles.
 
@@ -17,7 +17,7 @@ It gives power to the user with its various options to customize the style of sc
 Options
 -------
 
-AnimateScroll.js has 3 options:
+AnimateScroll has 3 options:
 
     easing
     scrollSpeed
