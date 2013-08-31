@@ -9,11 +9,11 @@
         "animation",
         "scrollto"
     ],
-        "version": "1.0.5",
-        "author": {
-            "name": "Ram Swaroop",
-            "email": "ramswarooppatra@gmail.com",
-            "url": "http://www.ramswaroop.me"
+    "version": "1.0.5",
+    "author": {
+        "name": "Ram Swaroop",
+        "email": "ramswarooppatra@gmail.com",
+        "url": "http://www.ramswaroop.me"
     },
     "maintainers": [
         {
