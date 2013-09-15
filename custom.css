@@ -72,9 +72,8 @@ a:hover {
 #section-6{background:rgb(21, 40, 54);margin-bottom:-30px}
 .btn{padding:10px;border:3px solid #fff;background-color:transparent;color:#fff;font-weight:700;text-transform:uppercase;display:inline-block}
 .btn:hover{border-style:dashed;cursor:pointer}
-.btn:active{margin-top:5px;margin-bottom:-5px}
+.btn:active,.demo-btn:active{border-style:dotted}
 .demo-btn{position:absolute;margin-top:12px;margin-left:40px}
-.demo-btn:active{margin-top:17px;margin-bottom:-17px}
 .element-demo{height:150px;margin:0.5em 0;padding:1em;font-family:Consolas,Monaco,'Andale Mono',monospace;text-shadow:0 -0.1em 0.2em black;border:0.3em solid #545454;border-radius:0.5em;background:none repeat scroll 0 0 #141414;box-shadow:1px 1px 0.5em black inset;overflow:auto}
 .easing-buttons{margin-top:80px}
 .download-buttons{margin-top:350px}
