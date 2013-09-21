@@ -85,6 +85,7 @@ a:hover {
 .w50{width:50%}
 .w60{width:60%}
 .w70{width:70%}
+.ptr{cursor:pointer}
 /* For Responsiveness */
 @media (min-width:32.5em) and (max-width: 61.250em) {
     [id^="section-"] .content-wrapper{font-size:1.2em}
