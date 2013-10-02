@@ -111,3 +111,7 @@ a:hover {
     .fr{float:none}
     .w30,.w60,.w70{width:100%}
 }
+
+.fatto{
+	border: 2px solid red;
+}

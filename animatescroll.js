@@ -143,18 +143,44 @@
                         return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
                 }
         });
-        
-        if(opts.element == "html,body") {
-            // Get the distance of particular id or class from top
-            var offset = this.offset().top;
-        
-            // Scroll the page to the desired position
-            $(opts.element).animate({ scrollTop: offset - opts.padding}, opts.scrollSpeed, opts.easing);
-        }
-        else {
-            // Scroll the element to the desired position
-            $(opts.element).animate({ scrollTop: this.offset().top - this.parent().offset().top + this.parent().scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
-        }
+
+        if (!this.length) { return this; }
+
+        this.each(function() {
+
+            var $this = $(this);
+
+            if (typeof opts.onScrollStart == 'function') { // make sure the callback is a function
+                opts.onScrollStart.call($this); // brings the scope to the callback
+            }
+
+            if(opts.element == "html,body") {
+                // Get the distance of particular id or class from top
+                var offset = $this.offset().top;
+
+                // Scroll the page to the desired position
+                $(opts.element).animate(
+                    { scrollTop: offset - opts.padding}, 
+                    opts.scrollSpeed, 
+                    opts.easing
+                    );
+            }
+            else {
+                // Scroll the element to the desired position
+                $(opts.element).animate(
+                    { scrollTop: $this.offset().top - $this.parent().offset().top + $this.parent().scrollTop() - opts.padding},
+                    opts.scrollSpeed, 
+                    opts.easing);
+            }
+
+             setTimeout(function(){
+                if (typeof opts.onScrollEnd == 'function') { // make sure the callback is a function
+                    opts.onScrollEnd.call($this); // brings the scope to the callback
+                }}, opts.scrollSpeed);
+
+        });
+
+        return this;
     };
     
     // default options
@@ -166,3 +192,5 @@
     };   
     
 }(jQuery));
+
+
