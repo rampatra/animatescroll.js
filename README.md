@@ -48,11 +48,11 @@ onScrollEnd: is executed at the end of the scroll animation
 
 Example:
 
-$('#section-2').animatescroll('onScrollStart', function(){
+$('#section-2').animatescroll({'onScrollStart': function(){
   console.log('starting')
-}, 'onScrollEnd', function(){
+}, 'onScrollEnd': function(){
   console.log('ended')
-})
+}})
 
 Easing Effects
 --------------
