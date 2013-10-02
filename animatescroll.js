@@ -162,7 +162,7 @@
             }
 
             // Scroll the element to the desired position
-            $(opts.element).animate(
+            $(opts.element).stop().animate(
                 { scrollTop: scrollTop },
                 {
                     duration: opts.scrollSpeed,
