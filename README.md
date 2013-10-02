@@ -22,7 +22,6 @@ AnimateScroll has 3 options:
     easing
     scrollSpeed
     padding
-    on
 
 easing : This option defines the scrolling style. The various easing effects supported can be seen at www.easings.net (Accepts string only)
 
