@@ -37,6 +37,22 @@ Added on v1.0.5
 
 element : The element in which you want this plugin to work. Default is "body". (Accepts any jQuery/CSS selector)
 
+New:
+
+    onScrollStart
+    onScrollEnd
+
+onScrollStart: is executed at the beginning of the scroll animation
+onScrollEnd: is executed at the end of the scroll animation
+
+Example:
+
+    $('#section-2').animatescroll({'onScrollStart': function(){
+      console.log('starting')
+    }, 'onScrollEnd': function(){
+      console.log('ended')
+    }})
+
 Easing Effects
 --------------
 
@@ -44,11 +60,11 @@ This plugin supports more than 30 different styles of scrolling. The easing opti
 
 Some of them are:
 
-$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
+    $('#section-2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
 
-$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
+    $('#section-2').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
 
-$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeOutElastic'});
+    $('#section-2').animatescroll({scrollSpeed:3000,easing:'easeOutElastic'});
 
 
 

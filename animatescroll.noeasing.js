@@ -10,18 +10,40 @@
         // fetches options
         var opts = $.extend({},$.fn.animatescroll.defaults,options);
         
-        if(opts.element == "html,body") {
-            // Get the distance of particular id or class from top
-            var offset = this.offset().top;
-        
-            // Scroll the page to the desired position
-            $(opts.element).animate({ scrollTop: offset - opts.padding}, opts.scrollSpeed, opts.easing);
-        }
-        else {
+        if (!this.length) { return this; }
+
+        this.each(function() {
+
+            var $this = $(this),
+                scrollTop,
+                completeFlag = false;
+
+            if (typeof opts.onScrollStart == 'function') { // make sure the callback is a function
+                opts.onScrollStart.call($this); // brings the scope to the callback
+            }
+
+            if(opts.element == 'html,body'){
+                scrollTop = $this.offset().top - opts.padding;
+            } else {
+                scrollTop = $this.offset().top - $this.parent().offset().top + $this.parent().scrollTop() - opts.padding;
+            }
+
             // Scroll the element to the desired position
-            $(opts.element).animate({ scrollTop: this.offset().top - this.parent().offset().top + this.parent().scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
-        }
-        
+            $(opts.element).animate(
+                { scrollTop: scrollTop },
+                {
+                    duration: opts.scrollSpeed,
+                    easing: opts.easing,
+                    complete: function(){
+                        if (typeof opts.onScrollEnd == 'function' && completeFlag === false) { // make sure the callback is a function
+                            completeFlag = true;
+                            opts.onScrollEnd.call($this); // brings the scope to the callback
+                        }
+                    }
+                });
+        });
+
+        return this;
     };
     
     // default options
@@ -33,3 +55,5 @@
     };   
     
 }(jQuery));
+
+
