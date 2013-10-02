@@ -22,6 +22,7 @@ AnimateScroll has 3 options:
     easing
     scrollSpeed
     padding
+    on
 
 easing : This option defines the scrolling style. The various easing effects supported can be seen at www.easings.net (Accepts string only)
 
@@ -36,6 +37,22 @@ Added on v1.0.5
     element
 
 element : The element in which you want this plugin to work. Default is "body". (Accepts any jQuery/CSS selector)
+
+Added on v1.0.6
+
+    onScrollStart
+    onScrollEnd
+
+onScrollStart: is executed at the beginning of the scroll animation
+onScrollEnd: is executed at the end of the scroll animation
+
+Example:
+
+$('#section-2').animatescroll('onScrollStart', function(){
+  console.log('starting')
+}, 'onScrollEnd', function(){
+  console.log('ended')
+})
 
 Easing Effects
 --------------
