@@ -150,34 +150,33 @@
 
             var $this = $(this);
 
-            if (typeof opts.onScrollStart == 'function') { // make sure the callback is a function
-                opts.onScrollStart.call($this); // brings the scope to the callback
+            var scrollTop,
+                completeFlag = false;
+
+            if(opts.element == 'html,body'){
+                scrollTop = $this.offset().top - opts.padding;
+            } else {
+                scrollTop = $this.offset().top - $this.parent().offset().top + $this.parent().scrollTop() - opts.padding;
             }
 
-            if(opts.element == "html,body") {
-                // Get the distance of particular id or class from top
-                var offset = $this.offset().top;
-
-                // Scroll the page to the desired position
-                $(opts.element).animate(
-                    { scrollTop: offset - opts.padding}, 
-                    opts.scrollSpeed, 
-                    opts.easing
-                    );
-            }
-            else {
-                // Scroll the element to the desired position
-                $(opts.element).animate(
-                    { scrollTop: $this.offset().top - $this.parent().offset().top + $this.parent().scrollTop() - opts.padding},
-                    opts.scrollSpeed, 
-                    opts.easing);
-            }
-
-             setTimeout(function(){
-                if (typeof opts.onScrollEnd == 'function') { // make sure the callback is a function
-                    opts.onScrollEnd.call($this); // brings the scope to the callback
-                }}, opts.scrollSpeed);
-
+            // Scroll the element to the desired position
+            $(opts.element).animate(
+                { scrollTop: scrollTop },
+                {
+                    duration: opts.scrollSpeed,
+                    easing: opts.easing,
+                    start: function(){
+                        if (typeof opts.onScrollStart == 'function') { // make sure the callback is a function
+                            opts.onScrollStart.call($this); // brings the scope to the callback
+                        }
+                    },
+                    complete: function(){
+                        if (typeof opts.onScrollEnd == 'function' && completeFlag === false) { // make sure the callback is a function
+                            completeFlag = true;
+                            opts.onScrollEnd.call($this); // brings the scope to the callback
+                        }
+                    }
+                });
         });
 
         return this;
