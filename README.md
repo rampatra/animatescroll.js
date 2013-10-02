@@ -38,7 +38,7 @@ Added on v1.0.5
 
 element : The element in which you want this plugin to work. Default is "body". (Accepts any jQuery/CSS selector)
 
-Added on v1.0.6
+New:
 
     onScrollStart
     onScrollEnd
