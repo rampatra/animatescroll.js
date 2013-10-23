@@ -15,11 +15,11 @@
             var offset = this.offset().top;
         
             // Scroll the page to the desired position
-            $(opts.element).animate({ scrollTop: offset - opts.padding}, opts.scrollSpeed, opts.easing);
+            $(opts.element).stop().animate({ scrollTop: offset - opts.padding}, opts.scrollSpeed, opts.easing);
         }
         else {
             // Scroll the element to the desired position
-            $(opts.element).animate({ scrollTop: this.offset().top - this.parent().offset().top + this.parent().scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
+            $(opts.element).stop().animate({ scrollTop: this.offset().top - this.parent().offset().top + this.parent().scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
         }
         
     };

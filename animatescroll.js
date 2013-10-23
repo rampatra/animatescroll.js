@@ -11,12 +11,12 @@
         var opts = $.extend({},$.fn.animatescroll.defaults,options);
           
         // defines various easing effects
-        jQuery.easing['jswing'] = jQuery.easing['swing'];
-        jQuery.extend( jQuery.easing,
+        $.easing['jswing'] = $.easing['swing'];
+        $.extend( $.easing,
         {
                 def: 'easeOutQuad',
                 swing: function (x, t, b, c, d) {
-                        return jQuery.easing[jQuery.easing.def](x, t, b, c, d);
+                        return $.easing[$.easing.def](x, t, b, c, d);
                 },
                 easeInQuad: function (x, t, b, c, d) {
                         return c*(t/=d)*t + b;
@@ -125,7 +125,7 @@
                         return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
                 },
                 easeInBounce: function (x, t, b, c, d) {
-                        return c - jQuery.easing.easeOutBounce (x, d-t, 0, c, d) + b;
+                        return c - $.easing.easeOutBounce (x, d-t, 0, c, d) + b;
                 },
                 easeOutBounce: function (x, t, b, c, d) {
                         if ((t/=d) < (1/2.75)) {
@@ -139,8 +139,8 @@
                         }
                 },
                 easeInOutBounce: function (x, t, b, c, d) {
-                        if (t < d/2) return jQuery.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;
-                        return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
+                        if (t < d/2) return $.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;
+                        return $.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
                 }
         });
         
@@ -149,11 +149,11 @@
             var offset = this.offset().top;
         
             // Scroll the page to the desired position
-            $(opts.element).animate({ scrollTop: offset - opts.padding}, opts.scrollSpeed, opts.easing);
+            $(opts.element).stop().animate({ scrollTop: offset - opts.padding}, opts.scrollSpeed, opts.easing);
         }
         else {
             // Scroll the element to the desired position
-            $(opts.element).animate({ scrollTop: this.offset().top - this.parent().offset().top + this.parent().scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
+            $(opts.element).stop().animate({ scrollTop: this.offset().top - this.parent().offset().top + this.parent().scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
         }
     };
     

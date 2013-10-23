@@ -80,7 +80,7 @@ a:hover {
 .fl{float:left}
 .fr{float:right}
 .disp-inl{display:inline}
-.disp-inl-blk{display:inline-block}
+.disp_inl_blk{display:inline-block}
 .w30{width:30%}
 .w50{width:50%}
 .w60{width:60%}
