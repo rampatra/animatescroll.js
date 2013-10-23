@@ -44,12 +44,21 @@ This plugin supports more than 30 different styles of scrolling. The easing opti
 
 Some of them are:
 
-$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
+<code>$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});</code>
 
-$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
+<code>$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});</code>
 
-$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeOutElastic'});
+<code>$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeOutElastic'});</code>
 
+<code>$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeInQuad'});</code>
+
+<code>$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeOutQuad'});</code>
+
+<code>$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeInOutQuad'});</code>
+
+<code>$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeInCubic'});</code>
+
+<code>$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeInOutCubic'});</code>
 
 
 Usage
