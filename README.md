@@ -42,14 +42,12 @@ Easing Effects
 
 This plugin supports more than 30 different styles of scrolling. The easing option lets you choose a particular style of scrolling according to your choice.
 
-Some of them are:
+The different easing effetcs are:
 
-$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
-
-$('#section-2').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
-
-$('#section-2').animatescroll({scrollSpeed:3000,easing:'easeOutElastic'});
-
+<pre><code>swing, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart,
+easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint, easeInSine, easeOutSine, easeInOutSine,
+easeInExpo, easeOutExpo, easeInOutExpo, easeInCirc, easeOutCirc, easeInOutCirc, easeInElastic, easeOutElastic,
+easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutBounce, easeInOutBounce</code></pre>
 
 
 Usage
