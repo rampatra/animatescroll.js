@@ -29,7 +29,7 @@ scrollSpeed : Controls the scrolling speed, higher is the number slower is the s
 
 padding : Adjusts little ups and downs in scrolling. Suppose a small amount of padding is applied to a particular element due to which the scroll didn't end at the right position, so this option helps you to rectify (Accepts numbers only, can be negative)
 
-Added on v1.0.5
+Added in v1.0.5
 
 4th option:
 
