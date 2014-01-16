@@ -61,18 +61,18 @@ NOTE: The only dependency for this plugin to work is jQuery library.
 
 <pre>
 <code>
-<html>
-    <head>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="animatescroll.js">
-    </head>
-    <body>
-        <div id="section-1">This is the element where you want to scroll to<div>
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;animatescroll.js&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div id=&quot;section-1&quot;&gt;This is the element where you want to scroll to&lt;div&gt;
         
         // You may call the function like this
-        <a onclick="$('[id-or-class-of-element]').animatescroll();">Go to Element</a>
-    </body>
-</html>
+        &lt;a onclick=&quot;$('[id-or-class-of-element]').animatescroll();&quot;&gt;Go to Element&lt;/a&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
 </code>
 </pre>
 
