@@ -42,7 +42,7 @@ Easing Effects
 
 This plugin supports more than 30 different styles of scrolling. The easing option lets you choose a particular style of scrolling according to your choice.
 
-The different easing effetcs are:
+The different easing effects are:
 
 <pre><code>swing, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart,
 easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint, easeInSine, easeOutSine, easeInOutSine,
@@ -53,12 +53,14 @@ easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutB
 Usage
 -----
 
-You need two things for this plugin to work, one is "jQuery library" and the other "animatescroll.js" file
+You need two things for this plugin to work, one is "jQuery library" and the other "animatescroll.js" file.
 
-Just include the "animatescroll.js" file after the "jQuery library" as shown in the code snippet below and you're done
-NOTE: The only dependency for this plugin to work is jQuery library
+Just include the "animatescroll.js" file after the "jQuery library" as shown in the code snippet below and you're done.
 
+NOTE: The only dependency for this plugin to work is jQuery library.
 
+<pre>
+<code>
 <html>
     <head>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -71,7 +73,8 @@ NOTE: The only dependency for this plugin to work is jQuery library
         <a onclick="$('[id-or-class-of-element]').animatescroll();">Go to Element</a>
     </body>
 </html>
-
+</code>
+</pre>
 
 
 NOTE: There are two js files, if you do not want the various easing effects, you can use the animatescroll.noeasing.js 
@@ -85,4 +88,4 @@ My name is Ram Swaroop. I am a Programmer as well as a Designer. I am the Founde
 
 This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code and can do the same @github.
 
-If my plugin helped you or unlikely for any issues tweet me @ramswaroopatra, will be happy to hear from you.
+If my plugin helped you or unlikely for any issues tweet me @ramswarooppatra, will be happy to hear from you.
