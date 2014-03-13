@@ -155,6 +155,7 @@
             // Scroll the element to the desired position
             $(opts.element).stop().animate({ scrollTop: this.offset().top - this.parent().offset().top + this.parent().scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
         }
+	  return false;
     };
     
     // default options
@@ -166,3 +167,11 @@
     };   
     
 }(jQuery));
+
+
+$(document).ready(function() {
+	$('a.animatescroll').click(function() {
+		var href = $.attr(this, 'href');
+		$(href).animatescroll();
+	});
+});
