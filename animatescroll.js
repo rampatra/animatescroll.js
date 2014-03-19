@@ -170,7 +170,7 @@
 
 
 $(document).ready(function() {
-	$('a.animatescroll').click(function() {
+	$('a[data-animatescroll]').click(function() {
 		var href = $.attr(this, 'href');
 		$(href).animatescroll();
 	});
