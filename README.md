@@ -62,7 +62,7 @@ easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutB
 
 
 Usage
------
+------
 
 You need two things for this plugin to work, one is "jQuery library" and the other "animatescroll.js" file.
 
