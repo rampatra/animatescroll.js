@@ -55,10 +55,13 @@ This plugin supports more than 30 different styles of scrolling. The easing opti
 
 The different easing effects are:
 
-<pre><code>swing, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart,
+<pre>
+<code>swing, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart,
 easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint, easeInSine, easeOutSine, easeInOutSine,
 easeInExpo, easeOutExpo, easeInOutExpo, easeInCirc, easeOutCirc, easeInOutCirc, easeInElastic, easeOutElastic,
-easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutBounce, easeInOutBounce</code></pre>
+easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutBounce, easeInOutBounce</code>
+</pre>
+
 
 
 Usage
@@ -89,8 +92,6 @@ NOTE: The only dependency for this plugin to work is jQuery library.
 
 
 NOTE: There are two js files, if you do not want the various easing effects, you can use the animatescroll.noeasing.js 
-
-
 
 About Me
 --------
