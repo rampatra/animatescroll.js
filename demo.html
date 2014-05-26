@@ -94,7 +94,7 @@
                         <div id="section-3">
                             <div class="content-wrapper w70"> 
                                 <h1>Options</h1>
-                                <p>AnimateScroll has 3 options:</p>
+                                <p>AnimateScroll has 6 options:</p>
                                 <ul>
                                     <li>easing</li>
                                     <li>scrollSpeed</li>
@@ -103,6 +103,8 @@
                                 <p><strong>easing : </strong> This option defines the scrolling style. The various easing effects supported can be seen at <a href="http://easings.net" target="_blank">easings.net</a> <small>(Accepts string only)</small></p>
                                 <p><strong>scrollSpeed : </strong> Controls the scrolling speed, higher is the number slower is the scroll speed <small>(Accepts only number)</small></p>
                                 <p><strong>padding : </strong> Adjusts little ups and downs in scrolling. Suppose a small amount of padding is applied to a particular element due to which the scroll didn't end at the right position, so this option helps you to rectify <small>(Accepts numbers only, can be negative)</small></p>
+
+                                <!-- Added in 1.0.5 -->
                                 <h1>Added in v1.0.5</h1>
                                 <p>4<sup>th</sup> option:</p>
                                 <ul>
@@ -137,6 +139,18 @@
                                 </div>
                                 The Code is like:<br/>
                                     <pre class="language-javascript"><code class="language-javascript">$('#last-paragraph').animatescroll({element:'.element-demo',padding:20});</code></pre>
+
+                                <!-- Added in 1.0.7 -->
+                                <h1>Added in v1.0.7</h1>
+                                <p>2 more options:</p>
+                                <ul>
+                                    <li>onScrollStart</li>
+                                    <li>onScrollEnd</li>
+                                </ul>
+                                <p><strong>onScrollStart : </strong> A function to be called before scrolling starts</p>
+                                <p><strong>onScrollEnd : </strong> A function to be called after the scrolling ends completely with animations</p>
+                                The Code will be like:<br/>
+                                    <pre class="language-javascript"><code class="language-javascript">$('#target-element').animatescroll({onScrollStart:function(){alert('scroll started')},onScrollEnd:function(){alert('scroll ended')}});</code></pre>
                             </div>
                         </div>
 

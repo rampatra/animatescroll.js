@@ -17,7 +17,7 @@ It gives power to the user with its various options to customize the style of sc
 Options
 -------
 
-AnimateScroll has 3 options:
+AnimateScroll has 6 options:
 
     easing
     scrollSpeed
@@ -36,6 +36,17 @@ Added in v1.0.5
     element
 
 element : The element in which you want this plugin to work. Default is "body". (Accepts any jQuery/CSS selector)
+
+Added in v1.0.7
+
+2 more options:
+
+    onScrollStart
+    onScrollEnd
+
+onScrollStart : A function to be called before scrolling starts
+
+onScrollEnd : A function to be called after the scrolling ends completely with animations
 
 Easing Effects
 --------------

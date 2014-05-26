@@ -9,7 +9,7 @@
         "animation",
         "scrollto"
     ],
-    "version": "1.0.6",
+    "version": "1.0.7",
     "author": {
         "name": "Ram Swaroop",
         "email": "ramswarooppatra@gmail.com",
@@ -18,7 +18,7 @@
     "maintainers": [
         {
             "name": "Compzets.com",
-            "email": "support@compzets.com",
+            "email": "ram@compzets.com",
             "url": "http://www.compzets.com"
         }
     ],
