@@ -83,8 +83,11 @@ NOTE: The only dependency for this plugin to work is jQuery library.
     &lt;body&gt;
         &lt;div id=&quot;section-1&quot;&gt;This is the element where you want to scroll to&lt;div&gt;
         
-        // You may call the function like this
-        &lt;a onclick=&quot;$('[id-or-class-of-element]').animatescroll();&quot;&gt;Go to Element&lt;/a&gt;
+        /*
+         * You may call the function like this
+         * (but better attach an event listener)
+         */
+        &lt;a onclick=&quot;$('[jquery selector]').animatescroll([options]);&quot;&gt;Go to Element&lt;/a&gt;
     &lt;/body&gt;
 &lt;/html&gt;
 </code>
