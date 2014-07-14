@@ -93,9 +93,7 @@ NOTE: The only dependency for this plugin to work is jQuery library.
 </code>
 </pre>
 
-**Or**
-
-You can also install from Bower (package manager):
+**You can either download the files or install from Bower (package manager):**
 ```javascript
 bower install animatescroll
 ```
