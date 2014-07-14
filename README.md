@@ -93,7 +93,12 @@ NOTE: The only dependency for this plugin to work is jQuery library.
 </code>
 </pre>
 
+**Or**
 
+You can also install from Bower (package manager):
+```
+bower install animatescroll
+```
 NOTE: There are two js files, if you do not want the various easing effects, you can use the animatescroll.noeasing.js 
 
 About Me
