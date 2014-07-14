@@ -73,25 +73,23 @@ Just include the "animatescroll.js" file after the "jQuery library" as shown in 
 
 NOTE: The only dependency for this plugin to work is jQuery library.
 
-<pre>
-<code>
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;script src=&quot;//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;animatescroll.js&quot;&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;div id=&quot;section-1&quot;&gt;This is the element where you want to scroll to&lt;div&gt;
+```javascript
+<html>
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="animatescroll.js">
+    </head>
+    <body>
+        <div id="section-1">This is the element where you want to scroll to<div>
         
         /*
          * You may call the function like this
          * (but better attach an event listener)
          */
-        &lt;a onclick=&quot;$('[jquery selector]').animatescroll([options]);&quot;&gt;Go to Element&lt;/a&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</code>
-</pre>
+        <a onclick="$('[jquery selector]').animatescroll([options]);">Go to Element</a>
+    </body>
+</html>
+```
 
 **You can either download the files or install from Bower (package manager):**
 ```javascript
