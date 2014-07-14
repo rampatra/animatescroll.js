@@ -96,8 +96,8 @@ NOTE: The only dependency for this plugin to work is jQuery library.
 **Or**
 
 You can also install from Bower (package manager):
-```
-bower install animatescroll
+```javascript
+>_ bower install animatescroll
 ```
 NOTE: There are two js files, if you do not want the various easing effects, you can use the animatescroll.noeasing.js 
 
