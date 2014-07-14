@@ -73,7 +73,7 @@ Just include the "animatescroll.js" file after the "jQuery library" as shown in 
 
 NOTE: The only dependency for this plugin to work is jQuery library.
 
-```javascript
+```html
 <html>
     <head>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
