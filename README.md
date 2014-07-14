@@ -104,7 +104,7 @@ NOTE: There are two js files, if you do not want the various easing effects, you
 About Me
 --------
 
-My name is Ram Swaroop. I am a Programmer as well as a Designer. I am the Founder of Compzets.com, as well as various other online applications.
+My name is Ram Swaroop. I am a Programmer as well as a Designer. I am the Founder of Compzets.com, have developed various other online applications and mobile apps.
 
 This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code and can do the same @github.
 
