@@ -112,6 +112,6 @@ About Me
 
 My name is Ram Swaroop. I am a Programmer as well as a Designer. I am the Founder of Compzets.com, have developed various other online applications and mobile apps.
 
-This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code.
+This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code by sending a pull-request.
 
 If my plugin helped you or unlikely for any issues tweet me [@ramswarooppatra](https://twitter.com/ramswarooppatra), will be happy to hear from you.
