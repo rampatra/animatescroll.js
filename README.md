@@ -49,14 +49,6 @@ NOTE: There are two js files, if you do not want the various easing effects, you
 Options
 -------
 
-To add an option:
-
-```javascript
-$('[jquery selector]').animatescroll({
-  <optionName>: <optionValue>
-});
-```
-
 AnimateScroll has 6 options:
 
 1. [easing](#easing)
@@ -66,32 +58,40 @@ AnimateScroll has 6 options:
 5. [onScrollStart](#onScrollStart)
 6. [onScrollEnd](#onScrollEnd)
 
-### easing (*default*: ```easing```)
+####easing (*default*: ```easing```)
 
 This option defines the scrolling style. The various easing effects supported can be seen at www.easings.net (Accepts string only)
 
-### scrollSpeed (*default*: ```400```)
+####scrollSpeed (*default*: ```400```)
 
 Controls the scrolling speed, higher is the number slower is the scroll speed (Accepts only number)
 
-### padding (*default*: ```0```)
+####padding (*default*: ```0```)
 
 Adjusts little ups and downs in scrolling. Suppose a small amount of padding is applied to a particular element due to which the scroll didn't end at the right position, so this option helps you to rectify (Accepts numbers only, can be negative)
 
-### element (*default*: ```html, body```)
+####element (*default*: ```html, body```)
 
 **Added in v1.0.5**.
 The element in which you want this plugin to work. Default is "body". (Accepts any jQuery/CSS selector)
 
-### onScrollStart
+####onScrollStart
 
-** Added in v1.0.7 **
+**Added in v1.0.7**.
 A function to be called before scrolling starts
 
-### onScrollEnd
+####onScrollEnd
 
-** Added in v1.0.7 **
+**Added in v1.0.7**.
 A function to be called after the scrolling ends completely with animations
+
+To add an option:
+
+```javascript
+$('[jquery selector]').animatescroll({
+  <optionName> : <optionValue>
+});
+```
 
 Easing Effects
 --------------
@@ -107,8 +107,8 @@ easeInExpo, easeOutExpo, easeInOutExpo, easeInCirc, easeOutCirc, easeInOutCirc, 
 easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutBounce, easeInOutBounce</code>
 </pre>
 
-About Me
---------
+About
+-----
 
 My name is Ram Swaroop. I am a Programmer as well as a Designer. I am the Founder of Compzets.com, have developed various other online applications and mobile apps.
 
