@@ -3,10 +3,18 @@
  * @author : Ram swaroop
  * @site   : Compzets.com
  */
-(function($){
-    
+ (function (root, factory) {
+    if (typeof exports === 'object' && typeof module !== 'undefined') {
+        module.exports = factory(require('jquery'));
+    } else if (typeof define === 'function' && define.amd) {
+        define(['jquery'], factory);
+    } else {
+        factory(root.$);
+    }
+})(window, function($) {
+
     $.fn.animatescroll = function(options) {
-        
+
         // fetches options
         var opts = $.extend({},$.fn.animatescroll.defaults,options);
 
@@ -19,7 +27,7 @@
         if(opts.element == "html,body") {
             // Get the distance of particular id or class from top
             var offset = this.offset().top;
-        
+
             // Scroll the page to the desired position
             $(opts.element).stop().animate({ scrollTop: offset - opts.padding}, opts.scrollSpeed, opts.easing);
         }
@@ -36,15 +44,15 @@
                 opts.onScrollEnd.call(this);
             }
         }, opts.scrollSpeed);
-        
+
     };
-    
+
     // default options
-    $.fn.animatescroll.defaults = {        
+    $.fn.animatescroll.defaults = {
         easing:"swing",
         scrollSpeed:800,
         padding:0,
         element:"html,body"
-    };   
-    
-}(jQuery));
+    };
+
+});

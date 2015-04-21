@@ -3,8 +3,16 @@
  * @author : Ram swaroop
  * @site   : Compzets.com
  */
-(function($){
-      
+ (function (root, factory) {
+    if (typeof exports === 'object' && typeof module !== 'undefined') {
+        module.exports = factory(require('jquery'));
+    } else if (typeof define === 'function' && define.amd) {
+        define(['jquery'], factory);
+    } else {
+        factory(root.$);
+    }
+})(window, function($) {
+
     // defines various easing effects
     $.easing['jswing'] = $.easing['swing'];
     $.extend( $.easing,
@@ -115,7 +123,7 @@
                     return c*((t=t/d-1)*t*((s+1)*t + s) + 1) + b;
             },
             easeInOutBack: function (x, t, b, c, d, s) {
-                    if (s == undefined) s = 1.70158; 
+                    if (s == undefined) s = 1.70158;
                     if ((t/=d/2) < 1) return c/2*(t*t*(((s*=(1.525))+1)*t - s)) + b;
                     return c/2*((t-=2)*t*(((s*=(1.525))+1)*t + s) + 2) + b;
             },
@@ -138,9 +146,9 @@
                     return $.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;
             }
     });
-    
+
     $.fn.animatescroll = function(options) {
-        
+
         // fetches options
         var opts = $.extend({},$.fn.animatescroll.defaults,options);
 
@@ -149,11 +157,11 @@
             // brings the scope to the callback
             opts.onScrollStart.call(this);
         }
-                
+
         if(opts.element == "html,body") {
             // Get the distance of particular id or class from top
             var offset = this.offset().top;
-        
+
             // Scroll the page to the desired position
             $(opts.element).stop().animate({ scrollTop: offset - opts.padding}, opts.scrollSpeed, opts.easing);
         }
@@ -171,13 +179,13 @@
             }
         }, opts.scrollSpeed);
     };
-    
+
     // default options
-    $.fn.animatescroll.defaults = {        
+    $.fn.animatescroll.defaults = {
         easing:"swing",
         scrollSpeed:800,
         padding:0,
         element:"html,body"
-    };   
+    };
     
-}(jQuery));
+});
