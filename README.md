@@ -112,7 +112,7 @@ easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutB
 About
 -----
 
-My name is Ram Swaroop. I am a Programmer as well as a Designer. I am the Founder of Compzets.com, have developed various other online applications and mobile apps.
+My name is Ram Swaroop. I am an app developer and a tech aficionado from India. I make apps/plugins for mobile, web and computer. Have a look at some of them at [ramswaroop.me](http://www.ramswaroop.me).
 
 This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code by sending a pull-request.
 
