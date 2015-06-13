@@ -11,16 +11,16 @@ Demo can be seen at http://plugins.compzets.com/animatescroll
 What is it exactly?
 -------------------
 
-AnimateScroll is a jQuery plugin which enables you to scroll to any part of the page in style by just calling the animatescroll() function with the Id or Classname of the element where you want to scroll to.
+AnimateScroll is a jQuery plugin which enables you to scroll to any part of the page in style by just calling the `animatescroll()` function with the `id` or `classname` of the element where you want to scroll to.
 
 It gives power to the user with its various options to customize the style of scrolling, scroll speed and many more. Supports more than 30 unique Scrolling Styles.
 
 Usage
 ------
 
-You need two things for this plugin to work, one is "jQuery library" and the other "animatescroll.js" file.
+You need two things for this plugin to work, one is "jQuery library" and the other `animatescroll.js` file.
 
-Just include the "animatescroll.js" file after the "jQuery library" as shown in the code snippet below and you're done.
+Just include the `animatescroll.js` file after the "jQuery library" as shown in the code snippet below and you're done.
 
 NOTE: The only dependency for this plugin to work is jQuery library.
 
@@ -46,7 +46,7 @@ NOTE: The only dependency for this plugin to work is jQuery library.
 ```javascript
 bower install animatescroll
 ```
-NOTE: There are two js files, if you do not want the various easing effects, you can use the animatescroll.noeasing.js
+NOTE: There are two js files, if you do not want the various easing effects, you can use the `animatescroll.noeasing.js`
 
 Options
 -------
