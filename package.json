@@ -1,0 +1,28 @@
+{
+  "name": "animatescroll.js",
+  "version": "1.0.7",
+  "description": "A Simple jQuery Plugin for Animating Scroll with more than 30 unique easing effects",
+  "main": "animatescroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramswaroop/animatescroll.js.git"
+  },
+  "keywords": [
+    "animatescroll",
+    "scrollanimate",
+    "scrollto",
+    "animation"
+  ],
+  "author": "ramswaroop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramswaroop/animatescroll.js/issues"
+  },
+  "homepage": "https://github.com/ramswaroop/animatescroll.js#readme",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
