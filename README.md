@@ -117,3 +117,8 @@ My name is Ram Swaroop. I am an app developer and a tech aficionado from India. 
 This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code by sending a pull-request.
 
 If my plugin helped you or unlikely for any issues tweet me [@ramswarooppatra](https://twitter.com/ramswarooppatra), will be happy to hear from you.
+
+Sponsors
+--------
+
+Proudly sponsored by [BrowserStack](https://www.browserstack.com).
