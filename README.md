@@ -110,7 +110,7 @@ easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutB
 About
 -----
 
-My name is Ram Swaroop. I am an app developer and a tech aficionado from India. I make apps/plugins for mobile, web and computer. Have a look at some of them at [rampatra.com](http://www.rampatra.com).
+My name is Ram Patra. I am an app developer and a tech aficionado from India. I make apps/plugins for mobile, web, and computer. Have a look at some of them at [rampatra.com](http://www.rampatra.com).
 
 This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code by sending a pull-request.
 
