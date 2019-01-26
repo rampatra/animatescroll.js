@@ -110,13 +110,22 @@ easeInOutElastic, easeInBack, easeOutBack, easeInOutBack, easeInBounce, easeOutB
 About
 -----
 
-My name is Ram Swaroop. I am an app developer and a tech aficionado from India. I make apps/plugins for mobile, web and computer. Have a look at some of them at [ramswaroop.me](http://www.ramswaroop.me).
+My name is Ram Swaroop. I am an app developer and a tech aficionado from India. I make apps/plugins for mobile, web and computer. Have a look at some of them at [rampatra.com](http://www.rampatra.com).
 
 This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code by sending a pull-request.
 
-If my plugin helped you or unlikely for any issues tweet me [@ramswarooppatra](https://twitter.com/ramswarooppatra), will be happy to hear from you.
+If my plugin helped you or unlikely for any issues tweet me [@ram__patra](https://twitter.com/ram__patra), will be happy to hear from you.
+
+Backers
+-------
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/animatescroll#backers)]
+
+<a href="https://opencollective.com/animatescroll#backers" target="_blank"><img src="https://opencollective.com/animatescroll/backers.svg?width=890"></a>
 
 Sponsors
 --------
 
-Proudly sponsored by [BrowserStack](https://www.browserstack.com).
+Proudly sponsored by [BrowserStack](https://www.browserstack.com). Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/animatescroll#sponsors)]
+ 
+<a href="https://opencollective.com/animatescroll#sponsors" target="_blank"><img src="https://opencollective.com/animatescroll/sponsors.svg?width=890"></a>
