@@ -140,3 +140,7 @@ Proudly sponsored by [Presentify](http://presentify.compzets.com?ref=GitHub) and
 </table>
  
 <a href="https://opencollective.com/animatescroll#sponsors" target="_blank"><img src="https://opencollective.com/animatescroll/sponsors.svg?width=890"></a>
+
+---
+
+_P.S. If my open-source project(s) benefitted you in some way or the other, a follow on [Twitter](https://twitter.com/ram__patra) would be greatly appreciated 🙇‍♂️._
