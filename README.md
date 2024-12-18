@@ -116,17 +116,10 @@ This is my first jQuery Plugin and I hope you all like it. You are free to make 
 
 If my plugin helped you or unlikely for any issues tweet me [@ram__patra](https://twitter.com/ram__patra), will be happy to hear from you.
 
-Backers
--------
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/animatescroll#backers)]
-
-<a href="https://opencollective.com/animatescroll#backers" target="_blank"><img src="https://opencollective.com/animatescroll/backers.svg?width=890"></a>
-
 Sponsors
 --------
 
-Proudly sponsored by [Presentify](http://presentify.compzets.com?ref=GitHub), [ToDoBar](http://todobar.compzets.com?ref=GitHub), and [BrowserStack](https://www.browserstack.com?ref=RamPatra). Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/animatescroll#sponsors)]
+Proudly sponsored by [Presentify](http://presentify.compzets.com?ref=GitHub), [ToDoBar](http://todobar.compzets.com?ref=GitHub), and [FaceScreen](https://facescreenapp.com/). Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://x.com/rampatra_)]
 
 <table>
     <tr>
@@ -141,8 +134,6 @@ Proudly sponsored by [Presentify](http://presentify.compzets.com?ref=GitHub), [T
         </td>
     </tr>
 </table>
- 
-<a href="https://opencollective.com/animatescroll#sponsors" target="_blank"><img src="https://opencollective.com/animatescroll/sponsors.svg?width=890"></a>
 
 ---
 
