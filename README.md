@@ -119,7 +119,7 @@ If my plugin helped you or unlikely for any issues tweet me [@ram__patra](https:
 Sponsors
 --------
 
-Proudly sponsored by [Presentify](http://presentify.compzets.com?ref=GitHub), [ToDoBar](http://todobar.compzets.com?ref=GitHub), and [FaceScreen](https://facescreenapp.com/). Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://x.com/rampatra_)]
+Proudly sponsored by these awesome apps. Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://x.com/rampatra_)]
 
 <table>
     <tr>
