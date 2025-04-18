@@ -1,7 +1,7 @@
 AnimateScroll
 =============
 
-A Simple jQuery Plugin for Animating the Scroll
+A jQuery Plugin for animating scrolling.
 
 Demo can be seen at http://plugins.compzets.com/animatescroll
 
@@ -127,10 +127,13 @@ Proudly sponsored by [Presentify](http://presentify.compzets.com?ref=GitHub), [T
             <a href="https://presentifyapp.com/" target="_blank"><img src="https://presentifyapp.com/assets/img/presentify/app-icon-512.png" width="150" height="150"></a>
         </td>
         <td>
+            <a href="https://facescreenapp.com/" target="_blank"><img src="https://github.com/user-attachments/assets/b251b413-ccc4-48f1-a316-c2c2a71f959e" width="150" height="150"></a>
+        </td>
+        <td>
             <a href="https://todobarapp.com/" target="_blank"><img src="https://todobarapp.com/assets/img/todobar/app-icon-512.png" width="150" height="150"></a>
         </td>
         <td>
-            <a href="https://facescreenapp.com/" target="_blank"><img src="https://github.com/user-attachments/assets/b251b413-ccc4-48f1-a316-c2c2a71f959e" width="150" height="150"></a>
+            <a href="https://simplefillapp.com/" target="_blank"><img src="https://github.com/user-attachments/assets/6c575d9c-b65b-4ce7-a468-30f74cfedf18" width="150" height="150"></a>
         </td>
     </tr>
 </table>
