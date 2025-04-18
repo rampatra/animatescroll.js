@@ -114,7 +114,7 @@ My name is Ram Patra. I am an app developer and a tech aficionado from India. I 
 
 This is my first jQuery Plugin and I hope you all like it. You are free to make more improvements to the code by sending a pull-request.
 
-If my plugin helped you or unlikely for any issues tweet me [@ram__patra](https://twitter.com/ram__patra), will be happy to hear from you.
+If my plugin helped you or unlikely for any issues tweet me [@rampatra_](https://twitter.com/rampatra_), will be happy to hear from you.
 
 Sponsors
 --------
