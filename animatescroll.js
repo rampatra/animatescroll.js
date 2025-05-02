@@ -159,7 +159,7 @@
         }
         else {
             // Scroll the element to the desired position
-            $(opts.element).stop().animate({ scrollTop: this.offset().top - this.parent().offset().top + this.parent().scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
+            $(opts.element).stop().animate({ scrollTop: this.offset().top - $(opts.element).offset().top + $(opts.element).scrollTop() - opts.padding}, opts.scrollSpeed, opts.easing);
         }
 
         setTimeout(function() {
@@ -180,4 +180,4 @@
         element:"html,body"
     };   
     
-}(jQuery));
+})(jQuery);
